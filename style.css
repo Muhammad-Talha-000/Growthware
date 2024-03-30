@@ -9,19 +9,23 @@ header{
     background-size: cover;
     /* opacity: 0.5; */
     background-blend-mode: screen;
-    padding-left: 128px;
 }
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 52px;
-    padding-right: 128px;
 }
-.primary, .secondary{
+.secondary{
     display: flex;
     align-items: center;
     gap: 30px;
+}
+.primary{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0 169.48px;
 }
 .dropdown{
     display: flex;
@@ -52,9 +56,12 @@ nav{
     border: none;
     cursor: pointer;
 }
+.main{
+    width: 544px;
+}
 .headermain{
     padding-top: 114px;
-    padding-right: 48px;
+    /* padding-right: 48px; */
     padding-bottom: 114px;
     gap: 48px;
     display: flex;
@@ -270,7 +277,10 @@ nav{
     padding-bottom: 96px;
 }
 .dropdown{
-    gap: 24px;
+    gap: 3px;
+    display: flex;
+}
+.dropdown img{
     display: flex;
 }
 .section4 .dropdown button{
