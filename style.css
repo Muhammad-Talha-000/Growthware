@@ -5,15 +5,18 @@ body{
     font-family: "Poppins"; 
 }
 header{
-    background: url("https://s3-alpha-sig.figma.com/img/133b/5c6e/33131941dec1e5d8231d10a09ebdad0b?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=glZD9U1HGo-8rrHNk5IlyrkxS-w1TimbiGkXnK0yNWqoFrT9N4O1fCTnwXIn0k0FmLhcE5CaH-EghqPnCx2jAanI7dZQ1EJV53~-VBoskNWErLyR5MO1Hdx840XRjzk6W8WktPKySu1BM~lZtu7NLQbj3oNiDE5E7F4XaAuyu7TAUXHX9Oe5kl9K03DrDheBc96aXqVCBBGhzayYPpwjtwJoF-SaVlHyYP7qqaFYJ5SpOkhVYJN~hnZZW1O5hGXx1lewF4S4SiB1lcVR9UdDm8YZcuDnmaSM9kLymmWFboCe1aL1xyx1DSsQzSc4C8CDy2NNfDFGW4BfaG7V7UZfAA__");
+    /* background: url("https://s3-alpha-sig.figma.com/img/133b/5c6e/33131941dec1e5d8231d10a09ebdad0b?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=glZD9U1HGo-8rrHNk5IlyrkxS-w1TimbiGkXnK0yNWqoFrT9N4O1fCTnwXIn0k0FmLhcE5CaH-EghqPnCx2jAanI7dZQ1EJV53~-VBoskNWErLyR5MO1Hdx840XRjzk6W8WktPKySu1BM~lZtu7NLQbj3oNiDE5E7F4XaAuyu7TAUXHX9Oe5kl9K03DrDheBc96aXqVCBBGhzayYPpwjtwJoF-SaVlHyYP7qqaFYJ5SpOkhVYJN~hnZZW1O5hGXx1lewF4S4SiB1lcVR9UdDm8YZcuDnmaSM9kLymmWFboCe1aL1xyx1DSsQzSc4C8CDy2NNfDFGW4BfaG7V7UZfAA__"); */
     background-size: cover;
     /* opacity: 0.5; */
     background-blend-mode: screen;
+    padding-left: 128px;
 }
 nav{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding-top: 52px;
+    padding-right: 128px;
 }
 .primary, .secondary{
     display: flex;
@@ -50,13 +53,13 @@ nav{
     cursor: pointer;
 }
 .headermain{
-    gap: 24px;
+    padding-top: 114px;
+    padding-right: 48px;
+    padding-bottom: 114px;
+    gap: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.main{
-    width: 544px;
 }
 .main h1{
     font-size: 64px;
@@ -270,7 +273,9 @@ nav{
     gap: 24px;
     display: flex;
 }
-.dropdown select{
+.section4 .dropdown button{
+    display: flex;
+    justify-content: space-between;
     padding: 10px 16px;
     border: solid 1px #D4D5D9;
     border-radius: 6px;
@@ -278,18 +283,20 @@ nav{
     height: 44px;
     opacity: 0px;    
 }
-.dropdown select option{
+.section4 .dropdown button p{
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 500;
     line-height: 28px;
+    color: #434956;
 }
 .sec4head{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 214px;
+    gap: 242px;
     margin-top: 48px;
+    border-bottom: 1px solid #D4D5D9;
 }
 .sec4head button{
     width: 260px;
@@ -301,6 +308,7 @@ nav{
     display: flex;  
     align-items: center;
     /* justify-content: center; */
+    margin-bottom: 24px;
     background-color: white;
 }
 .sec4head  button p{
@@ -312,8 +320,7 @@ nav{
 }
 .sec4main{
     display: grid;
-    width: 978px;
-    height: 130px;
+    width: 982px;
     padding-left: 24px;
     border-left: 2px solid #754BC9;
 }
