@@ -7,7 +7,6 @@ body{
 }
 header{
     position: relative;
-    height: 860px;
 }
 header section, .section1 h1, .section1 h2, .section1 div{
     position: relative;
@@ -26,6 +25,14 @@ nav{
     align-items: center;
     justify-content: center;
     padding-top: 52px;
+    gap: 165px;
+}
+.hamburger{
+    display: none;
+    position: relative;
+}
+.image img{
+    width: 600px;
 }
 .secondary{
     display: flex;
@@ -36,7 +43,6 @@ nav{
     display: flex;
     align-items: center;
     gap: 30px;
-    margin: 0 169.48px;
 }
 .dropdown{
     display: flex;
@@ -271,8 +277,10 @@ nav{
     padding: 24px 12px;
     gap: 12px;
     border-radius: 24px;
-    opacity: 0px;
     box-shadow: 0px 18px 18px 0px #00000017;
+}
+.box2 div:hover{
+    box-shadow: 8px 12px 20px darkgray;
 }
 .box2 p{
     width: 120px;
@@ -477,4 +485,193 @@ hr{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;    
+}
+
+@media screen and (max-width:1260px) {
+    nav{
+        gap: 100px;
+    }
+    .image img, .child2 p{
+        width: 470px;
+    }
+    .section1 div p{
+        width: 505px;
+    }
+    .child1 li {
+        width: 440px;
+    }
+    .footermain div{
+        width: 227px;
+    }
+    .bottom{
+        gap: 530px;
+    }
+    .child2{
+        padding-left: 45px;
+        padding-bottom: 62px;
+    }
+    .child2 h1{
+        width: 360px;
+    }
+}
+@media screen and (max-width:1120px) {
+    nav{
+        gap: 70px;
+    }
+    .primary, .secondary{
+        gap: 20px;
+    }
+    .headermain{
+        padding-top: 70px;
+    }
+    .main{
+        width: 432px;
+    }
+    .main h1{
+        font-size: 48px;
+        line-height: normal;
+    }
+    .main p{
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .image img{
+        width: 470px;
+    }
+    .section1 div p, .child2 p{
+        width: 450px;
+    }
+    .sec4main{
+        width: 800px;
+    }
+    .child1 li {
+        width: 414px;
+    }
+    .footermain div{
+        width: 200px;
+    }
+    .sec4head{
+        gap: 200px;
+    }
+    .bottom{
+        gap: 420px;
+    }
+    .section3{
+        padding-bottom: 120px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .primary, .secondary{
+        gap: 10px;
+    }
+    .main{
+        width: 360px;
+    }
+    .headermain{
+        padding-bottom: 80px;
+    }
+    nav{
+        gap: 50px;
+    }.footermain{
+        gap: 22px;
+    }
+    .section1 h1{
+        width: 818px;
+    }
+    .sec4main{
+        width: 700px;
+    }
+    .sec4head{
+        gap: 125px;
+    }
+    .section1 div p{
+        width: 410px;
+    }
+    .child1 li {
+        width: 380px;
+    }
+    .child2 p{
+        width: auto;
+    }
+    .child1{
+        padding: 54px 56px;
+        width: 50%;
+    }
+    .child2{
+        padding: 55px;
+        width: auto;
+    }
+    .bottom{
+        gap: 340px;
+    }
+}
+@media screen and (max-width:954px) {
+    .primary{
+        display: none;
+    }
+    .secondary{
+        gap: 30px;
+    }
+    nav{
+        gap: 170px;
+    }
+    .hamburger{
+        display: contents;
+    }
+    .image img{
+        width: 410px;
+    }
+    .section1 h1{
+        font-size: 44px;
+        width: 750px;
+    }
+    .main{
+        width: 320px;
+    }
+    .main h1, .section1 h2{
+        font-size: 38px;
+    }
+    .main p{
+        font-size: 16px;
+        line-height: normal;
+    }
+    .section1 div p {
+        width: 364px;
+    }
+    .child1{
+        padding: 54px 56px;
+    }
+    .child2{
+        padding: 54px;
+    }
+    .child1 li{
+        width: 350px;
+    }
+    .footermain div{
+        width: 177px;
+    }
+    .bottom{
+        gap: 250px; 
+    }
+    .section4 .dropdown button, .sec4head button {
+        width: 200px;
+    }
+}
+@media screen and (max-width:922px) {
+    .child2{
+        padding: 55px 30px;
+    }   
+}
+@media screen and (max-width:875px) {
+    .child1 {
+        padding: 54px 48px;
+    }   
+}
+@media screen and (max-width:857px) {
+    .child1 {
+        padding: 54px 48px;
+    }   
+}
+@media screen and (max-width:880px) {
+    
 }
