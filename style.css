@@ -167,7 +167,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 448px;
     width: 100%;
 }
 .child1{
@@ -659,7 +658,7 @@ hr{
 }
 @media screen and (max-width:922px) {
     .child2{
-        padding: 55px 30px;
+        padding: 55px 20px;
     }   
 }
 @media screen and (max-width:875px) {
@@ -672,6 +671,271 @@ hr{
         padding: 54px 48px;
     }   
 }
-@media screen and (max-width:880px) {
-    
+@media screen and (max-width:850px) {
+    .section2{
+        flex-direction: column;
+        position: relative;
+    }
+    .child1, .child2{
+        width: 100%;
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section1 div{
+        flex-direction: column;
+    }
+    .section1 div p, .section1 h1, .child2 p, .child2 h1{
+        width: auto;
+        padding: 0 50px;
+        text-align: center;
+    }
+    .child2 h1{
+        width: auto;
+    }
+    .child1 li, .sec4main{
+        width: 600px;
+    }
+    .sec4head{
+        gap: 30px;
+    }
+    nav{
+        gap: 120px;
+    }
+    .image img{
+        width: 367px;
+    }
+    .main h1, .section1 h2, .child2 h1{
+        font-size: 30px;
+    }
+    .section1 h1{
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+    .child1 h2{
+        font-size: 16px;
+    }
+    .row, .box2, .boxes{
+        gap: 15px;
+    }
+    .footermain div{
+        width: 150px;
+    }
+    .bottom{
+        gap: 140px;
+    }
+    hr{
+        width: 80%;
+    }
+    .main{
+        width: 260px;
+    }
+}
+@media screen and (max-width:720px) {
+    nav{
+        gap: 80px;
+    }
+    .image img{
+        width: 285px;
+    }
+    .child1 li, .sec4main {
+        width: 500px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row, .box2, .boxes{
+        gap: 40px;
+    }
+    .section4 .dropdown button, .sec4head button {
+        width: 170px;
+    }
+    .footermain div{
+        width: 130px;
+    }
+    .bottom div{
+        gap: 22px;
+    }
+}
+@media screen and (max-width:630px) {
+    .logo{
+        width: 170px;
+    }    
+    .footermain img{
+        width: 30px;
+    }
+    .footermain div{
+        width: 114px;
+    }
+    .bottom{
+        gap: 78px;
+    }
+    nav{
+        gap: 60px;
+    }
+    .main{
+        width: 224px;
+    }
+    .image img{
+        width: 254px;
+    }
+}
+@media screen and (max-width:570px) {
+    .secondary{
+        display: none;
+    }
+    nav{
+        gap: 15rem;
+    }
+    .headermain{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .image img, .main, .section1 div p, .section1 h1, .child2 p{
+        width: 430px;
+        padding: 0;
+        text-align: left;
+    }
+    .main button, .main p{
+        margin-top: 20px;
+    }
+    .section1 h1{
+        font-size: 30px;
+        line-height: normal;
+        text-align: center
+    }
+    .section1 div p, .child1 h2, .child1 p, .sec4main p, .footermain h4, .main button p, .child2 p{
+        font-size: 14px;
+    }
+    .footermain a, .bottom p{
+        font-size: 12px;
+    }
+    .child1 li, .sec4main {
+        width: 400px;
+    }
+    .sec4head{
+        flex-direction: column;
+        gap: 0;
+    }
+    .section4 .dropdown button, .sec4head button {
+        width: 215px;
+    }
+    .footermain div {
+        width: 92px;
+    }
+}
+@media screen and (max-width:470px) {
+    nav{
+        gap: 10rem;
+    }
+    .image img, .main, .section4 .dropdown button, .sec4head button, .section1 div p, .section1 h1, .child2 p{
+        width: 355px;
+    }
+    .child1 li, .sec4main {
+        width: 330px;
+    }
+    .footermain div {
+        width: 72px;
+    }
+    .bottom {
+        gap: 32px;
+    }
+    hr{
+        margin: 30px 0;
+    }
+    .section4, .section3{
+        padding: 70px 0;
+    }
+    .bottom div{
+        gap: 10px;
+    }
+    .section3 h1{
+        font-size: 30px;
+    }
+    .dropdown{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:420px) {
+    nav{
+        gap: 6rem;
+    }
+    .image img, .main, .section4 .dropdown button, .sec4head button, .section1 div p, .section1 h1, .child2 p{
+        width: 295px;
+    }
+    .child1 li, .sec4main {
+        width: 270px;
+    }
+    .sec4main pre{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .footermain div {
+        width: 72px;
+    }
+    .bottom {
+        gap: 32px;
+    }
+    hr{
+        margin: 30px 0;
+    }
+    .section4, .section3{
+        padding: 70px 0;
+    }
+    .bottom div{
+        gap: 10px;
+    }
+    .section3 h1{
+        font-size: 30px;
+    }
+    .dropdown{
+        flex-direction: column;
+    }
+    .row, .box2, .boxes{
+        gap: 20px;
+    }
+    .footermain a, .bottom p {
+        font-size: 10px;
+    }
+    .footermain {
+        flex-wrap: wrap;
+        margin: 40px;
+    }
+    .bottom{
+        gap: 18px;
+    }
+    hr{
+        width: 70%;
+    }
+    .section1 h1{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:370px) {
+    .row, .box2, .boxes{
+        gap: 10px;
+    }
+}
+@media screen and (max-width:340px) {
+    nav{
+        gap: 5rem;
+    }
+    .image img, .main, .section4 .dropdown button, .sec4head button, .section1 div p, .section1 h1, .child2 p{
+        width: 275px;
+    }
+    .child1 li, .sec4main {
+        width: 250px;
+    }
+    .row, .box2, .boxes{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .box2 div{
+        width: 200px;
+    }
+    .bottom, .bottom div{
+        gap: 6px;
+    }
 }
