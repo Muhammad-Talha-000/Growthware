@@ -357,27 +357,19 @@ nav{
     display: flex;
     gap: 24px;
 }
-.sec4head button{
-    width: 260px;
-    padding: 8px 16px;
-    gap: 12px;
+.sec4head input{
+    width: 218px;
+    padding: 15px 0 15px 45px;
     border-radius: 48px;
     border: solid 1px #D4D5D9;
-    opacity: 0px;
-    display: flex;  
-    align-items: center;
-    /* justify-content: center; */
+    background-image: url(images/search.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
     margin-bottom: 24px;
     background-color: white;
-}
-.sec4head  button input{
-    width: 180px;
     color: #8D95A5;
-    margin: 0;
     font-size: 16px;
     font-weight: 400;
-    line-height: 28px;
-    border: none;
 }
 .sec4main{
     display: grid;
@@ -593,7 +585,7 @@ hr{
         width: 200px;
     }
     .sec4head{
-        gap: 200px;
+        gap: 60px;
     }
     .bottom{
         gap: 420px;
@@ -623,9 +615,6 @@ hr{
     .sec4main{
         width: 700px;
     }
-    .sec4head{
-        gap: 103px;
-    }
     .section1 div p{
         width: 410px;
     }
@@ -645,6 +634,9 @@ hr{
     }
     .bottom{
         gap: 340px;
+    }
+    .dropdown1, .sec4head input{
+        width: 200px;
     }
 }
 @media screen and (max-width:960px) {
@@ -692,12 +684,6 @@ hr{
     .bottom{
         gap: 250px; 
     }
-    .sec4head button, .dropdown1{
-        width: 190px;
-    }
-    .sec4head button input{
-        width: 120px;
-    }
 }
 @media screen and (max-width:933px) {
     .child2{
@@ -715,6 +701,9 @@ hr{
     }   
 }
 @media screen and (max-width:850px) {
+    .dropdown1, .sec4head input {
+        width: 166px;
+    }
     .section2{
         flex-direction: column;
         position: relative;
@@ -740,9 +729,6 @@ hr{
     }
     .child1 li, .sec4main{
         width: 600px;
-    }
-    .sec4head{
-        gap: 30px;
     }
     nav{
         gap: 120px;
@@ -795,17 +781,21 @@ hr{
     .sec4head button {
         width: 150px;
     }
-    .sec4head button input {
-        width: 77px;
-    }
     .footermain div{
         width: 130px;
     }
     .bottom ul{
         gap: 22px;
     }
-    .dropdown1 {
-        width: 160px;
+    .sec4head{
+        flex-direction: column;
+        gap: 0;
+    }
+    .dropdown1{
+        width: 252px;
+    }
+    .sec4head input{
+        width: 480px;
     }
 }
 @media screen and (max-width:630px) {
@@ -864,18 +854,14 @@ hr{
     .footermain div {
         width: 92px;
     }
-    .sec4head{
-        flex-direction: column;
-        gap: 0;
-    }
     .sec4head button {
         width: 425px;
     }
-    .sec4head button input {
-        width: 346px;
-    }
     .dropdown1 {
         width: 200px;
+    }
+    .sec4head input {
+        width: 380px;
     }
 }
 @media screen and (max-width:470px) {
@@ -914,6 +900,9 @@ hr{
     }
     .sec4head button {
         width: 354px;
+    }
+    .sec4head input {
+        width: 310px;
     }
 }
 @media screen and (max-width:420px) {
@@ -968,8 +957,11 @@ hr{
         flex-direction: column;
         gap: 0;
     }
-    .sec4head button, .dropdown1{
+    .dropdown1{
         width: 295px;
+    }
+    .sec4head input{
+        width: 250px;
     }
 }
 @media screen and (max-width:370px) {
@@ -1005,10 +997,10 @@ hr{
     .bottom, .bottom ul{
         gap: 6px;
     }
-    .sec4head button, .dropdown1 {
-        width: 250px;
+    .dropdown1 {
+        width: 268px;
     }
-    .sec4head button input {
-        width: 173px;
+    .sec4head input{
+        width: 225px;
     }
 }
