@@ -93,6 +93,9 @@ nav{
     border: none;
     cursor: pointer;
 }
+.secondary button:hover{
+    background-color: #5c3b9e;
+}
 .main{
     width: 544px;
 }
@@ -488,6 +491,9 @@ footer{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+}
+.footermain a:hover{
+    color: #D4D5D9;
 }
 hr{
     color: white;
